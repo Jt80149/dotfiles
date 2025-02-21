@@ -22,4 +22,5 @@ The `setup.sh` script performs the following actions:
 ## Citations
 - Vundle: [https://github.com/VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)
 - Plugins: Refer to the respective GitHub repositories for each plugin.
+- Co-Pilot. The phrases that I used where to get help with finding different commands, and making sure I was doing the assignment correctly.
 
