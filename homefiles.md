@@ -5,6 +5,7 @@ Two useful aliases
 30 okay aliases
 70 more aliases
 
+![part of task 1](https://github.com/user-attachments/assets/1586af98-03b3-4123-aee0-58cb8ab529ce)
 
 
 
@@ -15,7 +16,17 @@ Write a script that:
 Optional, pick one:
 [if needed] outputs to user packages that need to be installed for your .bashrc file
 [if needed] checks if being run as sudo, installs additional packages needed for your .bashrc file
+![scrpt](https://github.com/user-attachments/assets/27bc2252-128c-4239-a103-c4f8b5ff2080)
+![set up](https://github.com/user-attachments/assets/022a7a99-3c84-4647-a474-09d5d1a2aaae)
+
+
+
 symbolically links the .bashrc file in your dotfiles repository to your user's home directory
 reminds the user to reload their environment (with source or by logging out and back on)
 Add / copy the script to your dotfiles repository in homefiles
+
+
+
+
 A recovery .bashrc file is here if you need it. While testing, maybe name yours new_bashrc and try loading it into your shell (source new_bashrc) to check for errors because having it be your only .bashrc
+![bash](https://github.com/user-attachments/assets/54f9b696-7f75-44b5-8122-2c4653147fd3)
