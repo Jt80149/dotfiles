@@ -50,3 +50,7 @@ Citations:
 I was curious and asked Co-pilot to list the aliases so I could copy and paste them into the .baschrc file. (It is pretty neat being able to shorten commands to make it easier to complete tasks. I did go through the 100+ different aliases given just to make sure nothing was a copy or would mess with each other. I only ended up adding a handful out of the ones I seen.)
 
 
+
+
+
+
