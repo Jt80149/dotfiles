@@ -28,4 +28,4 @@ The `setup.sh` script performs the following actions:
 
 
 
-# dotfiles task 2
+# dotfiles task 2 / homefiles
