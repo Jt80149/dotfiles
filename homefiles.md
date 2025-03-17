@@ -5,6 +5,8 @@ Two useful aliases
 30 okay aliases
 70 more aliases
 
+- I ended up choosing to go with creating a ~/.bash_aliases file.
+
 ![part of task 1](https://github.com/user-attachments/assets/1586af98-03b3-4123-aee0-58cb8ab529ce)
 
 
