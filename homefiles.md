@@ -16,21 +16,17 @@ Verify your added aliases / bash additions work - install additional packages if
 Copy your .bashrc file to your dotfiles repository in homefiles
 Write a script that:
 Optional, pick one:
-[if needed] outputs to user packages that need to be installed for your .bashrc file
-[if needed] checks if being run as sudo, installs additional packages needed for your .bashrc file
+
 ![scrpt](https://github.com/user-attachments/assets/27bc2252-128c-4239-a103-c4f8b5ff2080)
 ![set up](https://github.com/user-attachments/assets/022a7a99-3c84-4647-a474-09d5d1a2aaae)
 
 
 
-symbolically links the .bashrc file in your dotfiles repository to your user's home directory
+symbolically links the .bashrc file in your dotfiles repository to the user's home directory
 reminds the user to reload their environment (with source or by logging out and back on)
-Add / copy the script to your dotfiles repository in homefiles
 
 
-
-
-A recovery .bashrc file is here if you need it. While testing, maybe name yours new_bashrc and try loading it into your shell (source new_bashrc) to check for errors because having it be your only .bashrc
+A recovery .bashrc file is here if it is needed. While testing, I named a new file new_bashrc and tried loading it into the shell (source new_bashrc) to check for errors.
 ![bash](https://github.com/user-attachments/assets/54f9b696-7f75-44b5-8122-2c4653147fd3)
 
 
