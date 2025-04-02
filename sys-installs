@@ -38,6 +38,25 @@ echo "AWS CLI installation complete. You can run 'aws --version' to check the in
 ----------------------------
 
 Steps Followed:
-
+Create the sys-installs folder:
 mkdir -p ~/path/to/your/dotfiles/sys-installs
+
+
+Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
+nano ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh
+
+
+Make the script executable:
+chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh
+
+
+Works Cited:
+where do i go to add the script
+
+
+
+
+
+
+
 
