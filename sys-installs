@@ -51,11 +51,14 @@ chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh
 
 
 Works Cited:
-where do i go to add the script
+"where do i go to add the script"   (because i wasnt logged into the ubuntu sever. I was still in powershell.)
+
+"cd dotfiles/sys-installs is the path. How do i execute?" (Same thing)
 
 
 
-
+"what would a script from AWS Command Line Interface (CLI) look like?"
+"give me another one"
 
 
 
