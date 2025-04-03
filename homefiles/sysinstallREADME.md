@@ -31,9 +31,6 @@ When asked these
 
 
 
-## Scripts
-- **install_awscli.sh**: Installs AWS CLI and its dependencies.
-
 ## Citations
 This script was generated using Microsoft Copilot, a conversational AI model based on the GPT-4 architecture. The prompt used for generating the script was:
 "In your dotfiles repository, create a folder named sys-installs. Package installs..."
