@@ -22,5 +22,5 @@ Co-pilot answered yes and continued to elaborate by saying the -y flag with the 
 "what would a script from AWS Command Line Interface (CLI) look like?"
 "give me another one"
 
-(I asked it these because I didn't realize I wasn't even on the ubuntu server. )
+(I asked it these because I didn't realize I wasn't on the ubuntu server. )
 ![errors](https://github.com/user-attachments/assets/c2a75057-be5e-4ce8-a733-6b2774400418)
