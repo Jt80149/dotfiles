@@ -5,6 +5,9 @@
 
 
 
+Description:
+This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup.
+
 Script:
 
 if [ "$EUID" -ne 0 ]; then
