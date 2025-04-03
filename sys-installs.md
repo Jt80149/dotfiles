@@ -6,21 +6,17 @@
 
 
 Script:
-#!/bin/bash
 
-# Check if the script is running as root
 if [ "$EUID" -ne 0 ]; then
   echo "This script requires sudo or root privileges. Please run as root."
   exit 1
 fi
 
-# Check if apt is available on the system
 if ! command -v apt &> /dev/null; then
   echo "This script requires the apt package manager. Please ensure apt is installed."
   exit 1
 fi
 
-# Inform the user about the installation
 echo "This script will install the AWS Command Line Interface (CLI)."
 read -p "Do you want to proceed? (y/n): " choice
 if [[ "$choice" != "y" ]]; then
@@ -28,18 +24,15 @@ if [[ "$choice" != "y" ]]; then
   exit 1
 fi
 
-# Check if AWS CLI is already installed
 if command -v aws &> /dev/null; then
   echo "AWS CLI is already installed or the command name is taken. Installation aborted."
   exit 1
 fi
 
-# Install AWS CLI
 echo "Installing AWS CLI..."
 apt update -y
 apt install -y awscli
 
-# Confirm installation
 echo "AWS CLI installation complete. You can run 'aws --version' to check the installation."
 
 ----------------------------
@@ -50,22 +43,31 @@ echo "AWS CLI installation complete. You can run 'aws --version' to check the in
 
 
 Steps Followed:
-Create the sys-installs folder:
+1. Create the sys-installs folder:
 mkdir -p ~/path/to/your/dotfiles/sys-installs
 
 
-Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
-nano ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh
+2. Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
+"nano ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
 
-Make the script executable:
-chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh
+3. Make the script executable:
+"chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
 ---------------------------------
 Works Cited:
-"where do i go to add the script"   (because i wasnt logged into the ubuntu sever. I was still in powershell.)
+"what commands need to be used to add a script"   
+1.cd ~/path/to/your/dotfiles
+2. mkdir -p sys-installs
+3. nano sys-installs/install-aws-cli.sh
+Copy and paste the script I provided earlier into the install-aws-cli.sh file.
+Save and exit the editor (in nano, you can do this by pressing Ctrl+X, then Y, and Enter).
+Make the script executable:
+4. chmod +x sys-installs/install-aws-cli.sh
 
-"cd dotfiles/sys-installs is the path. How do i execute?" (Same thing)
+"cd dotfiles/sys-installs is the path. How do i execute?"
+1. Navigation - "cd ~/dotfiles/sys-installs"
+2. Run the Script -  "sudo ./install-aws-cli.sh"
 
 
 
