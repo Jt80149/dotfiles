@@ -5,10 +5,10 @@
 
 
 
-Description:
+# Description:
 This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup.
 
-Script:
+# Script:
 
 if [ "$EUID" -ne 0 ]; then
   echo "This script requires sudo or root privileges. Please run as root."
@@ -39,14 +39,10 @@ apt install -y awscli
 echo "AWS CLI installation complete. You can run 'aws --version' to check the installation."
 
 
-
-
-
-
 ![making the script executeable](https://github.com/user-attachments/assets/130190c1-08cd-4c22-a808-1fd70a308c02)
 
 
-Steps Followed:
+# Steps Followed:
 1. Create the sys-installs folder:
 mkdir -p ~/path/to/your/dotfiles/sys-installs
 
@@ -59,7 +55,7 @@ mkdir -p ~/path/to/your/dotfiles/sys-installs
 "chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
 ---------------------------------
-Works Cited:
+# Works Cited:
 
 See sysinstallREADME.md in homefiles folder
 
