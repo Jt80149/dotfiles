@@ -108,6 +108,9 @@ Make the script executable:
 1. Navigation - "cd ~/dotfiles/sys-installs"
 2. Run the Script -  "sudo ./install-aws-cli.sh"
 
+"Will the script run Silently?"
+Co-pilot answered yes and continued to elaborate by saying the -y flag with the sudo apt install command will automatcially assume the correct answer to be Yes
+
 
 
 "what would a script from AWS Command Line Interface (CLI) look like?"
