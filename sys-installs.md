@@ -12,6 +12,19 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 if ! command -v apt &> /dev/null; then
   echo "This script requires the apt package manager. Please ensure apt is installed."
   exit 1
