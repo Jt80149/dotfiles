@@ -4,9 +4,20 @@
 
 ![making the script executeable](https://github.com/user-attachments/assets/130190c1-08cd-4c22-a808-1fd70a308c02)
 
+# Steps Followed:
+1. Create the sys-installs folder:
+mkdir -p ~/path/to/your/dotfiles/sys-installs
+
+
+2. Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
+"nano ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
+
+
+3. Make the script executable:
+"chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
 # Description:
-This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup.
+This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I ended up using the since there
 
 # Script:
 
@@ -42,17 +53,7 @@ echo "AWS CLI installation complete. You can run 'aws --version' to check the in
 
 
 
-# Steps Followed:
-1. Create the sys-installs folder:
-mkdir -p ~/path/to/your/dotfiles/sys-installs
 
-
-2. Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
-"nano ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
-
-
-3. Make the script executable:
-"chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
 ---------------------------------
 # Works Cited:
