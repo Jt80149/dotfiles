@@ -17,10 +17,12 @@ mkdir -p ~/path/to/your/dotfiles/sys-installs
 "chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
 # Description:
-This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I used the AWS Command Line Interface (CLI)
+This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I used the AWS Command Line Interface (CLI) when doing the project
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Script:
-- This line of code starting off checks to see if the script is running as root.
+- This line of code starting off checks to see if the script is running as root, and checks the effective users id (EUID)
 - 
 if [ "$EUID" -ne 0 ]; then
   echo "This script requires sudo or root privileges. Please run as root."
@@ -28,7 +30,8 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 
--
+- This next line of code will confirm the the apt command is available on the system to download. If it is not found it will exit then prompt the user the apt package manager is required.
+- 
 if ! command -v apt &> /dev/null; then
   echo "This script requires the apt package manager. Please ensure apt is installed."
   exit 1
@@ -53,11 +56,15 @@ if command -v aws &> /dev/null; then
 fi
 
 
-
+- These couple lines of code will make it so the apt is silently installed
+-
 echo "Installing AWS CLI..."
 apt update -y
 apt install -y awscli
 
+
+- This line of code will let the user know that the installation is installed successfully
+-
 echo "AWS CLI installation complete. You can run 'aws --version' to check the installation."
 
 ![script](https://github.com/user-attachments/assets/4a159cfa-cd75-4d45-a847-c89aa9ffb50f)
