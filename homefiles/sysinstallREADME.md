@@ -1,5 +1,7 @@
-Works Cited:
-
+# Works Cited:
+----------------------------------------------------------------------------------------------
+# Description:
+This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I used the AWS Command Line Interface (CLI) when doing the project
 
 "what commands need to be used to add a script"   
 1.cd ~/path/to/your/dotfiles
