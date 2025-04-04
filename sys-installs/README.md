@@ -1,8 +1,6 @@
 
 
-![1st part ](https://github.com/user-attachments/assets/397888ad-8581-4d5f-bc5f-a8baa730a93b)
 
-![making the script executeable](https://github.com/user-attachments/assets/130190c1-08cd-4c22-a808-1fd70a308c02)
 
 # Steps Followed:
 1. Create the sys-installs folder:
@@ -66,7 +64,6 @@ apt install -y awscli
 -
 echo "AWS CLI installation complete. You can run 'aws --version' to check the installation."
 
-![script](https://github.com/user-attachments/assets/4a159cfa-cd75-4d45-a847-c89aa9ffb50f)
 
 
 
