@@ -20,8 +20,8 @@ mkdir -p ~/dotfiles/sys-installs
 
 # Script:
 - This line of code starting off checks to see if the script is running as root, and checks the effective users id (EUID)
-- 
-if [ "$EUID" -ne 0 ]; then
+-       
+            if [ "$EUID" -ne 0 ]; then
   echo "This script requires sudo or root privileges. Please run as root."
   exit 1
 fi
