@@ -16,8 +16,7 @@ mkdir -p ~/path/to/your/dotfiles/sys-installs
 3. Make the script executable:
 "chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
-# Description:
-This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I used the AWS Command Line Interface (CLI) when doing the project
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
