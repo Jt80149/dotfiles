@@ -17,20 +17,26 @@ mkdir -p ~/path/to/your/dotfiles/sys-installs
 "chmod +x ~/path/to/your/dotfiles/sys-installs/install-aws-cli.sh"
 
 # Description:
-This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I ended up using the since there
+This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I used the AWS Command Line Interface (CLI)
 
 # Script:
-
+- This line of code starting off checks to see if the script is running as root.
+- 
 if [ "$EUID" -ne 0 ]; then
   echo "This script requires sudo or root privileges. Please run as root."
   exit 1
 fi
 
+
+-
 if ! command -v apt &> /dev/null; then
   echo "This script requires the apt package manager. Please ensure apt is installed."
   exit 1
 fi
 
+
+- This line allows for the action to either proceed with y or exit with n.
+- 
 echo "This script will install the AWS Command Line Interface (CLI)."
 read -p "Do you want to proceed? (y/n): " choice
 if [[ "$choice" != "y" ]]; then
@@ -38,10 +44,15 @@ if [[ "$choice" != "y" ]]; then
   exit 1
 fi
 
+
+- This line checks if the software is already installed or has any name issues and exits if something were to pop up.
+- 
 if command -v aws &> /dev/null; then
   echo "AWS CLI is already installed or the command name is taken. Installation aborted."
   exit 1
 fi
+
+
 
 echo "Installing AWS CLI..."
 apt update -y
