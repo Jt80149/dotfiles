@@ -21,10 +21,10 @@ mkdir -p ~/dotfiles/sys-installs
 # Script:
 - This line of code starting off checks to see if the script is running as root, and checks the effective users id (EUID)
 -
- if [ "$EUID" -ne 0 ]; then
-  echo "This script requires sudo or root privileges. Please run as root."
-  exit 1
-fi
+  if [ "$EUID" -ne 0 ]; then
+   echo "This script requires sudo or root privileges. Please run as root."
+   exit 1
+ fi
 
 
 - This next line of code will confirm the the apt command is available on the system to download. If it is not found it will exit then prompt the user the apt package manager is required.
