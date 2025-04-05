@@ -1,17 +1,21 @@
 
+![1st part ](https://github.com/user-attachments/assets/3b7d4bb1-b2d3-4c03-bb6f-bcea989f7602)
 
 
+![making the script executeable](https://github.com/user-attachments/assets/d993c84c-4cdc-4e03-b2d7-eed6e439f091)
 
 # Steps Followed:
+
+
 1. Create the sys-installs folder:
 mkdir -p ~/dotfiles/sys-installs
 
 
-2. Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
+3. Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
 "nano ~/dotfiles/sys-installs/install-aws-cli.sh"
 
 
-3. Make the script executable:
+4. Make the script executable:
 "chmod +x ~/dotfiles/sys-installs/install-aws-cli.sh"
 
 
@@ -66,17 +70,20 @@ echo "AWS CLI installation complete. You can run 'aws --version' to check the in
 
 
 
+![script](https://github.com/user-attachments/assets/01f889e4-ffc0-442d-8e94-cf6b77ff424f)
 
 
 
 ---------------------------------
 # Works Cited: 
 
-# Works Cited:
-----------------------------------------------------------------------------------------------
+
 # Description:
-(When asked to do number 3 is it asking for the files in github and what they do or the stuff we added into sys-install?)
-This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I used the AWS Command Line Interface (CLI) when doing the project
+- This folder contains scripts for installing various software packages on Ubuntu Linux. Each script checks for necessary conditions before proceeding with the installation to ensure a smooth and conflict-free setup. I used the AWS Command Line Interface (CLI) when doing the project.
+
+- This is the same link provided from the task three assignment. Here I was able to learn a little more about how the Command Line Interface operates and what it's used for. The AWS CLI provides direct access to public API's(Apllication Programming Interface) with AWS Services.(https://docs.aws.amazon.com/cli/), (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+
+
 
 "what commands need to be used to add a script"   
 1.cd ~/path/to/your/dotfiles
@@ -156,14 +163,11 @@ echo "Ansible installation complete. You can run 'ansible --version' to check th
 # Citations
 The script was generated using Microsoft Copilot, a conversational AI model based on the GPT-4 architecture. The prompt used for generating the script was:
 " checks the effective user id (EUID) - if running as root the script may proceed, otherwise it exits and prompts the user that this script requires sudo or root
-checks that the system package manager is apt (or apt is available on the system), otherwise it exits and prompts the user that this script uses the apt package manager
-provides the user with information on what will be installed - allows the user to provide y for yes and proceeds or n for no and exits"
+checks that the system package manager is apt (or apt is available on the system), otherwise it exits and prompts the user that this script uses the apt package managerprovides the user with information on what will be installed - allows the user to provide y for yes and proceeds or n for no and exits"
 
 "How is the script supposed to look like? What are the right spots to put the commands in?"
 
--
 
-For more information on AWS CLI, visit the [official AWS CLI documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 
 
 
