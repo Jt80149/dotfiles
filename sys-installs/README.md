@@ -100,6 +100,7 @@ Make the script executable:
 
 "Will the script run Silently?"
 Co-pilot answered yes and continued to elaborate by saying the -y flag with the sudo apt install command will automatcially assume the correct answer to be Yes
+
 ---------------------------------------------------------------------------------------------------------------
 (I asked it these because I didn't realize I wasn't on the ubuntu server. )
 ![errors](https://github.com/user-attachments/assets/c2a75057-be5e-4ce8-a733-6b2774400418)
