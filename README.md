@@ -51,7 +51,7 @@ For my script that prompt that was used was "symbolically link the .bashrc file 
 Picture is included as i helped the AI by giving it different prompts and to complete the script and make sure it was getting done correctly (Hopefully)
 
 ------------------------------------------------------------------------------------------------------------- 
-Dotfiles Task 3 / sys-installs
+## Dotfiles Task 3 / sys-installs
 
 ![1st part ](https://github.com/user-attachments/assets/3b7d4bb1-b2d3-4c03-bb6f-bcea989f7602)
 
