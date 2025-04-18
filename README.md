@@ -26,6 +26,12 @@ The `setup.sh` script performs the following actions:
 
 
 
+Instructors notes on things that were missed when doing Task 1:
+(-1) vimrc pathing error: ('~/some/path/here').  Missing vundle#end
+
+ would not "touch ~/dotfiles/setup.sh" - the files will exist because it's in the cloned repo
+
+
 
 
 # dotfiles task 2 / homefiles
@@ -49,6 +55,13 @@ After i did that i did go into the links to see if I could find them myself so i
 
 For my script that prompt that was used was "symbolically link the .bashrc file in your dotfiles repository to the users home directory to remind the user to reload their environment (with source or by loggin>
 Picture is included as i helped the AI by giving it different prompts and to complete the script and make sure it was getting done correctly (Hopefully)
+
+
+Instructor notes on things that were missed & could be improved in Task 2:
+
+(-1) no bashrc or bash_aliases file in repo
+
+(-1) no script in repo
 
 ------------------------------------------------------------------------------------------------------------- 
 ## Dotfiles Task 3 / sys-installs
@@ -222,6 +235,8 @@ checks that the system package manager is apt (or apt is available on the system
 
 "How is the script supposed to look like? What are the right spots to put the commands in?"
 
+
+Instructor notes on things that were missed with Task 3:
 
 
 
