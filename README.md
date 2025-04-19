@@ -26,7 +26,7 @@ The `setup.sh` script performs the following actions:
 
 
 
- ## Instructors notes on things that were missed when doing Task 1:
+ ## Instructors notes on things that were missed when doing Task 1: (Part of Task 4)
 - (-1) vimrc pathing error: ('~/some/path/here').  Missing vundle#end - COMPLETED
 To fix this I had to go into the vundle and add the missing end that was not put into the code.
 I went back through the .vimrc file and added the vundle#end to the script. I ran the script and it worked out well.
