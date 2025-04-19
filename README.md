@@ -29,8 +29,30 @@ The `setup.sh` script performs the following actions:
  ## Instructors notes on things that were missed when doing Task 1:
 - (-1) vimrc pathing error: ('~/some/path/here').  Missing vundle#end - COMPLETED
 To fix this I had to go into the vundle and add the missing end that was not put into the code.
+I went back through the .vimrc file and added the vundle#end to the script. I ran the script and it worked out well.
+Pictures are added to show what it is supposed to look like now.
 
-- would not "touch ~/dotfiles/setup.sh" - the files will exist because it's in the cloned repo
+![TASK 1 Re-work](https://github.com/user-attachments/assets/c0499df8-f6c2-4084-9734-599de46da67b)
+
+![TASK 1 Re-work 1](https://github.com/user-attachments/assets/14d89ae4-8cff-4aca-8b83-f2700025cdb4)
+
+![TASK 1 Re-work 2](https://github.com/user-attachments/assets/153f1c63-780d-4918-826a-ee6db643f701)
+
+
+ # Vim Configuration
+
+ This folder contains the configuration files for Vim.
+
+ ## Citations
+ - Vundle: VundleVim/Vundle.vim
+ - Jellybeans color scheme: nanotech/jellybeans.vim
+ - Vim improvement plugins:
+     - Indent guides: nathanaelkane/vim-indent-guides
+     - Fugitive: tpope/vim-fugitive
+     - YouCompleteMe: ycm-core/YouCompleteMe
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
 
 
 
