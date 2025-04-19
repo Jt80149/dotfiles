@@ -27,7 +27,8 @@ The `setup.sh` script performs the following actions:
 
 
  ## Instructors notes on things that were missed when doing Task 1:
-- (-1) vimrc pathing error: ('~/some/path/here').  Missing vundle#end
+- (-1) vimrc pathing error: ('~/some/path/here').  Missing vundle#end - COMPLETED
+To fix this I had to go into the vundle and add the missing end that was not put into the code.
 
 - would not "touch ~/dotfiles/setup.sh" - the files will exist because it's in the cloned repo
 
