@@ -32,6 +32,8 @@ To fix this I had to go into the vundle and add the missing end that was not put
 I went back through the .vimrc file and added the vundle#end to the script. I ran the script and it worked out well.
 Pictures are added to show what it is supposed to look like now.
 
+It ended up improving it since the script never executed before. it does now.
+
 ![TASK 1 Re-work](https://github.com/user-attachments/assets/c0499df8-f6c2-4084-9734-599de46da67b)
 
 ![TASK 1 Re-work 1](https://github.com/user-attachments/assets/14d89ae4-8cff-4aca-8b83-f2700025cdb4)
