@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# File to install
+DOTFILE=".bash_aliases"
+REPO_PATH="$HOME/dotfiles/homefiles/$DOTFILE"
+TARGET_PATH="$HOME/$DOTFILE"
+BACKUP_PATH="$HOME/${DOTFILE}.bak"
+
+# Backup original if it exists
+if [ -f "$TARGET_PATH" ] && [ ! -L "$TARGET_PATH" ]; then
+    echo "Backing up existing $DOTFILE to $BACKUP_PATH"
+    mv "$TARGET_PATH" "$BACKUP_PATH"
+fi
+
+# Create symlink
+ln -sf "$REPO_PATH" "$TARGET_PATH"
+echo "Linked $REPO_PATH to $TARGET_PATH"
+
+# Prompt user to reload their shell
+echo "✅ Done! Run: source ~/.bash_aliases or restart your terminal to load changes."
