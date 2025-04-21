@@ -1,9 +1,25 @@
 ## ~/.bashrc aliases
 
+# Safer file deletion
+alias rm='rm -i'
+
+# Colorized, detailed list
+alias ll='ls -alF --color=auto'
+
+# Clear screen
+alias c='clear'
+
+# Make a directory and move into it
+alias mkcd='foo() { mkdir -p "$1"; cd "$1"; }; foo'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gp='git push'
 alias ll='ls -la'
 alias gs='git status'
 
-alias c='clear'
 alias h='history'
 
 ##30 okay alias
