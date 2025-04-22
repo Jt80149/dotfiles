@@ -1,55 +1,57 @@
 
-Edit your .bashrc file with:
-Two useful aliases
-"awesome" bash aliases
-30 okay aliases
-70 more aliases
 
-- I ended up just going with editing the ~/bashrc file and added my aliases from there.
+![Task 2 Re-Work , Aliases](https://github.com/user-attachments/assets/4aab3c29-9323-4912-b745-d0f30c10e7dd)
 
-![part of task 1](https://github.com/user-attachments/assets/1586af98-03b3-4123-aee0-58cb8ab529ce)
+In my HOMEFILES folder I created a ~/.bash_aliases file to store all my aliases into.
+The screenshot shows a little handful of Aliases I have added. Credit goes to ChatGPT for help
 
+![Task 2 Re-work  Verified   Copied](https://github.com/user-attachments/assets/82dc2ef1-cf22-4a78-a334-026fb686a963)
 
-
-Something cool from The Ultimate B.A. .bashrc file
-Verify your added aliases / bash additions work - install additional packages if required
-Copy your .bashrc file to your dotfiles repository in homefiles
-Write a script that:
-Optional, pick one:
-
-![scrpt](https://github.com/user-attachments/assets/27bc2252-128c-4239-a103-c4f8b5ff2080)
-![set up](https://github.com/user-attachments/assets/022a7a99-3c84-4647-a474-09d5d1a2aaae)
-
-
-
-symbolically links the .bashrc file in your dotfiles repository to the user's home directory
-reminds the user to reload their environment (with source or by logging out and back on)
-
-
-A recovery .bashrc file is here if it is needed. While testing, I named a new file new_bashrc and tried loading it into the shell (source new_bashrc) to check for errors.
-![bash](https://github.com/user-attachments/assets/54f9b696-7f75-44b5-8122-2c4653147fd3)
+- source ~/.bash_aliases is the command used to make sure the aliases run smoothly.
+This shows that the file that contains the ~/.bash_aliases was verified and i was able to copy it 
 
 
 
 
+![Task 2 Re-work, Script](https://github.com/user-attachments/assets/889a45f6-2967-474d-b849-58b17d155335)
+
+## The script safely installs your custom .bash_aliases file by:
+- Backing up any existing .bash_aliases file in your home directory
+
+- Creating a symbolic link (symlink) from your dotfiles repo to ~/.bash_aliases
+
+- Reminding you to reload your shell environment so the changes take effect
+
+## This Script checks:
+- If a .bash_aliases file already exists and it's not a symbolic link (-L).
+  
+- Then it moves (backs up) the original to .bash_aliases.bak so it’s not lost
+
+
+
+## After running the script:
+
+ - ~/.bash_aliases now points to ~/dotfiles/homefiles/.bash_aliases
+   
+ - You can manage and version control it via your dotfiles repo
+   
+ - Your environment is consistent across systems that you upload it too.
 
 
 
 
+Citations:
 
-------------------------------------------------------
+ChatGPT is what helped me to make a new script. 
+When asking ChatGPT 
+" Write a script that:
+Optional pick one:
+[if needed] outputs to user packages that need to be installed for your .bashrc file
+AND
+copies or symbolically links the .bash_aliases file in your dotfiles repository to your user's home directory
+This needs to be over the ~/.bash_aliases so that it will back up any exisiting files, and create a sym link between the dotfiles repo and the ~/.bash_aliases"
 
-
-
-
-
-Citations: (also in my README.md section)
-
-I was curious and asked Co-pilot to list the aliases so I could copy and paste them into the .baschrc file. (It is pretty neat being able to shorten commands to make it easier to complete tasks. I did go through the 100+ different aliases given just to make sure nothing was a copy or would mess with each other. I only ended up adding a handful out of the ones I seen.)
-
-I did have to ask Co-pilot for help getting the source new_bashrc to check for errors. When I tried to use the command (source ~/new_bashrc) it told me the file never existed. I asked co-pilot what needed to  be done to achieve this in ubuntu and it told me that I also have to make the new baschrc file and copy that to the homefiles as well.
-
-The last thing I did as I don't know all the commands i did ask co pilot how to copy files and it helped by spitting out the code to do so.
+It gave me the script output that I had used
 
 
 
