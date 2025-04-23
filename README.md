@@ -322,24 +322,16 @@ Retrospective notes of desired improvements either bulleted in README or added a
 
 ## Dotfiles Task 4: Details and Summarization of Repositorys contents.
 Description:
-
-🧠 Why Use Dotfiles?
-Managing your configuration in a dotfiles repo lets you:
-
-Easily sync your environment across machines
-
-Version control your setup with Git
-
-Quickly recover or reinstall your preferred setup
-
-
+Dotfiles have many uses as to why they can be very important and good to have in the I.T. world.
+As you can easily sync your personal envirmoent across the different machines you use around the world,
+With Git you can control your setup, and quickly recover or install the setup that you want.
 
 
 ### 1. **Clone the Repository**
 Task 2 - (homefiles)
 Task 3 - (sys-install)
 
-git clone https://github.com/YOUR_GITHUB_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/jt80149/dotfiles.git ~/dotfiles
 
 Here is a list of notes that I have created and used through the issue tab.
 I made these notes and improvements by the instructors notes given on feedback from Task 1-3 submissions.:
