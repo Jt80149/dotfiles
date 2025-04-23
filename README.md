@@ -327,11 +327,19 @@ As you can easily sync your personal envirmoent across the different machines yo
 With Git you can control your setup, and quickly recover or install the setup that you want.
 
 
-### 1. **Clone the Repository**
+
+#Clone/Utilize the Repository
+To clone the Git Repos use this code below:
+git clone https://github.com/jt80149/dotfiles.git ~/dotfiles
+You will want to clone the repos as they can really help you save & work on a project without really messing too much up.
+You can make changes, test different features, or debug code in a local enviroment.
+You can experiment without risk and create new local branches to try out ideas without affecting the main codebase and use the version control to make changes locally and push them whenever you are online.
+The repo acts as a backup for your projects.
+
+These tasks show how I was able to clone the repo's and utilize it to help me accomplish the assignments.
 Task 2 - (homefiles)
 Task 3 - (sys-install)
 
-git clone https://github.com/jt80149/dotfiles.git ~/dotfiles
 
 Here is a list of notes that I have created and used through the issue tab.
 I made these notes and improvements by the instructors notes given on feedback from Task 1-3 submissions.:
