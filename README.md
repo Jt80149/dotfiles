@@ -307,8 +307,64 @@ checks that the system package manager is apt (or apt is available on the system
 ## Instructor notes on things that were missed with Task 3:
 
 
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+In the README.md file of your dotfiles repository, detail and summarize this repository's contents:
+Useful minimum details:
+What this dotfiles collection contains
+How to clone / utilize the dotfiles in this repo
+may point to task specific README's for additional details
+Retrospective notes of desired improvements either bulleted in README or added as Issues in repository
 
 
+
+## Dotfiles Task 4
+Description:
+
+🧠 Why Use Dotfiles?
+Managing your configuration in a dotfiles repo lets you:
+
+Easily sync your environment across machines
+
+Version control your setup with Git
+
+Quickly recover or reinstall your preferred setup
+
+
+
+
+### 1. **Clone the Repository**
+Task 2 - (homefiles)
+Task 3 - (sys-install)
+
+git clone https://github.com/YOUR_GITHUB_USERNAME/dotfiles.git ~/dotfiles
+
+Here is a list of notes that i have created and used through the issue tab.
+## Task List for Dotfiles tasks 1
+ 
+
+- [x]  vimrc pathing error: ('~/some/path/here').  Missing vundle#end
+
+## Re-work & Improvements for Dotfiles Task 2
+
+- [x] Re-work files so there is an appropriate README.md, script file, ~/.bash_aliases
+
+- [x] Re-write Task 2 README.md so it makes sense.
+
+- [x] Fix Citations
+
+- [x] Create new bashrc file/ bash_aliases file in repo
+
+- [x] Include Script into repo
+
+
+
+## Re-Work & Improvments to Dotfiles Task 3
+
+- [ ]  Re-work Task 3 verbage. Allow clarity in the documentation.
+- [ ]  Explain better detail. What does it do?
 
 
 
