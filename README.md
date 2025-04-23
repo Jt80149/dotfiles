@@ -342,7 +342,7 @@ Task 3 - (sys-install)
 git clone https://github.com/YOUR_GITHUB_USERNAME/dotfiles.git ~/dotfiles
 
 Here is a list of notes that I have created and used through the issue tab.
-I made these notes and improvements by the instructors notes given on feedback from Task 1-3 submissions.
+I made these notes and improvements by the instructors notes given on feedback from Task 1-3 submissions.:
 
 ## Task List for Dotfiles tasks 1
  
@@ -365,8 +365,8 @@ I made these notes and improvements by the instructors notes given on feedback f
 
 ## Re-Work & Improvments to Dotfiles Task 3
 
-- [ ]  Re-work Task 3 verbage. Allow clarity in the documentation.
-- [ ]  Explain better detail. What does it do?
+- [x]  Re-work Task 3 verbage. Allow clarity in the documentation.
+- [x]  Explain better detail. What does it do?
 
 
 
