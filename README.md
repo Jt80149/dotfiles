@@ -59,7 +59,7 @@ It ended up improving it since the script never executed before. it does now.
 
 
 
-## dotfiles task 2 / homefiles
+## Dotfiles Task 2 / Homefiles
 
 
 
@@ -320,7 +320,7 @@ Retrospective notes of desired improvements either bulleted in README or added a
 
 
 
-## Dotfiles Task 4
+## Dotfiles Task 4: Details and Summarization of Repositorys contents.
 Description:
 
 🧠 Why Use Dotfiles?
@@ -341,7 +341,9 @@ Task 3 - (sys-install)
 
 git clone https://github.com/YOUR_GITHUB_USERNAME/dotfiles.git ~/dotfiles
 
-Here is a list of notes that i have created and used through the issue tab.
+Here is a list of notes that I have created and used through the issue tab.
+I made these notes and improvements by the instructors notes given on feedback from Task 1-3 submissions.
+
 ## Task List for Dotfiles tasks 1
  
 
