@@ -45,7 +45,7 @@ It ended up improving it since the script never executed before. it does now.
 
  This folder contains the configuration files for Vim.
 
- ## Citations
+ # Citations
  - Vundle: VundleVim/Vundle.vim
  - Jellybeans color scheme: nanotech/jellybeans.vim
  - Vim improvement plugins:
@@ -78,21 +78,21 @@ This shows that the file that contains the ~/.bash_aliases was verified and i wa
 
 ![Task 2 Re-work, Script](https://github.com/user-attachments/assets/889a45f6-2967-474d-b849-58b17d155335)
 
-## The script safely installs your custom .bash_aliases file by:
+# The script safely installs your custom .bash_aliases file by:
 - Backing up any existing .bash_aliases file in your home directory
 
 - Creating a symbolic link (symlink) from your dotfiles repo to ~/.bash_aliases
 
 - Reminding you to reload your shell environment so the changes take effect
 
-## This Script checks:
+# This Script checks:
 - If a .bash_aliases file already exists and it's not a symbolic link (-L).
   
 - Then it moves (backs up) the original to .bash_aliases.bak so it’s not lost
 
 
 
-## After running the script:
+# After running the script:
 
  - ~/.bash_aliases now points to ~/dotfiles/homefiles/.bash_aliases
    
