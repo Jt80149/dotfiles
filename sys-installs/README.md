@@ -1,8 +1,5 @@
 
-![1st part ](https://github.com/user-attachments/assets/3b7d4bb1-b2d3-4c03-bb6f-bcea989f7602)
 
-
-![making the script executeable](https://github.com/user-attachments/assets/d993c84c-4cdc-4e03-b2d7-eed6e439f091)
 
 # Steps Followed:
 
@@ -18,6 +15,10 @@ mkdir -p ~/dotfiles/sys-installs
 4. Make the script executable:
 "chmod +x ~/dotfiles/sys-installs/install-aws-cli.sh"
 
+![1st part ](https://github.com/user-attachments/assets/3b7d4bb1-b2d3-4c03-bb6f-bcea989f7602)
+
+
+![making the script executeable](https://github.com/user-attachments/assets/d993c84c-4cdc-4e03-b2d7-eed6e439f091)
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
