@@ -367,7 +367,7 @@ I made these notes and improvements by the instructors notes given on feedback f
 
 - [x]  Re-work Task 3 verbage. Allow clarity in the documentation.
 - [x]  Explain better detail. What does it do?
-- [] clean up the markdown and provide screenshots that demonstrate the script can be used  (instructors note)
+- [x] clean up the markdown and provide screenshots that demonstrate the script can be used  (instructors note)
 
 
 
