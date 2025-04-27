@@ -134,31 +134,36 @@ It gave me the script output that I had used
 ------------------------------------------------------------------------------------------------------------- 
 ## Dotfiles Task 3 / sys-installs
 
+
+
+
+# Steps Followed:
+
+-  Create the sys-installs folder:
+mkdir -p ~/dotfiles/sys-installs
+
+
+ -  Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
+"nano ~/dotfiles/sys-installs/install-aws-cli.sh"
+
+
+-  Make the script executable:
+"chmod +x ~/dotfiles/sys-installs/install-aws-cli.sh"
+
 ![1st part ](https://github.com/user-attachments/assets/3b7d4bb1-b2d3-4c03-bb6f-bcea989f7602)
 
 
 ![making the script executeable](https://github.com/user-attachments/assets/d993c84c-4cdc-4e03-b2d7-eed6e439f091)
 
-# Steps Followed:
+-  Here is what it supposed to look like when you execute the code using "sudo ./install-aws-cli.sh"
+it will make the script execute what was created and install AWS-client onto your system.
 
-
-1. Create the sys-installs folder:
-mkdir -p ~/dotfiles/sys-installs
-
-
-3. Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
-"nano ~/dotfiles/sys-installs/install-aws-cli.sh"
-
-
-4. Make the script executable:
-"chmod +x ~/dotfiles/sys-installs/install-aws-cli.sh"
-
-
+![image](https://github.com/user-attachments/assets/9dd41e3b-6f3c-4418-ab72-b38dd344f381)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Script:
-- This line of code starting off checks to see if the script is running as root, and checks the effective users id (EUID)
+- This line of code starting off checks to see if the script is running as root, and checks the effective users id (EUID) a good sign to follow is if there is a 0. 0 is always root.
 
  if [ "$EUID" -ne 0 ]; then
   echo "This script requires sudo or root privileges. Please run as root."
@@ -209,8 +214,10 @@ echo "AWS CLI installation complete. You can run 'aws --version' to check the in
 
 
 
+
+
+
 ---------------------------------
-# Works Cited: 
 
 
 # Description:
@@ -243,57 +250,8 @@ Co-pilot answered yes and continued to elaborate by saying the -y flag with the 
 - "what would a script from AWS Command Line Interface (CLI) look like?"
 When asked this because AWS Command Line Interface (CLI) is the script I wanted to create. 
   
-- "give me another one"
-When asked this it gave me two different versions or ways of how to do the script. It gave me one for Anisble
 
-
-------------
-#Script for Anisble
-
-# Check if running as root
-if [ "$EUID" -ne 0 ]; then
-  echo "This script requires sudo or root privileges. Please run as root."
-  exit 1
-fi
-
-# Check if apt is available
-if ! command -v apt &> /dev/null; then
-  echo "This script requires the apt package manager. Please ensure apt is installed."
-  exit 1
-fi
-
-# Provide information on what will be installed
-echo "This script will install Ansible and its dependencies."
-read -p "Do you want to proceed? (y/n): " choice
-if [[ "$choice" != "y" ]]; then
-  echo "Installation aborted."
-  exit 1
-fi
-
-# Check if Ansible is already installed
-if command -v ansible &> /dev/null; then
-  echo "Ansible is already installed. Exiting to prevent name conflict."
-  exit 1
-fi
-
-# Silently install Ansible
-echo "Installing Ansible..."
-sudo apt update
-sudo apt install -y ansible
-
-# Prompt the user that install is complete
-echo "Ansible installation complete. You can run 'ansible --version' to check the installation."
-
-# End of script
-
-
-
-
-
-
-
-
-
+--------------------------------------
 
 
 # Citations
@@ -304,8 +262,15 @@ checks that the system package manager is apt (or apt is available on the system
 "How is the script supposed to look like? What are the right spots to put the commands in?"
 
 
-## Instructor notes on things that were missed with Task 3:
 
+
+
+
+
+
+
+## Instructor notes on things that were missed with Task 3:
+- [x] clean up the markdown and provide screenshots that demonstrate the script can be used  (instructors note)
 
 -----------------------------------------
 -----------------------------------------
