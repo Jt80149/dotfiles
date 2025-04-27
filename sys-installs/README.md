@@ -3,16 +3,15 @@
 
 # Steps Followed:
 
-
-1. Create the sys-installs folder:
+-  Create the sys-installs folder:
 mkdir -p ~/dotfiles/sys-installs
 
 
-3. Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
+ -  Save the script above to a file named install-aws-cli.sh in the sys-installs folder:
 "nano ~/dotfiles/sys-installs/install-aws-cli.sh"
 
 
-4. Make the script executable:
+-  Make the script executable:
 "chmod +x ~/dotfiles/sys-installs/install-aws-cli.sh"
 
 ![1st part ](https://github.com/user-attachments/assets/3b7d4bb1-b2d3-4c03-bb6f-bcea989f7602)
@@ -20,6 +19,10 @@ mkdir -p ~/dotfiles/sys-installs
 
 ![making the script executeable](https://github.com/user-attachments/assets/d993c84c-4cdc-4e03-b2d7-eed6e439f091)
 
+-  Here is what it supposed to look like when you execute the code using "sudo ./install-aws-cli.sh"
+it will make the script execute what was created and install AWS-client onto your system.
+
+![image](https://github.com/user-attachments/assets/9dd41e3b-6f3c-4418-ab72-b38dd344f381)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -72,6 +75,9 @@ echo "AWS CLI installation complete. You can run 'aws --version' to check the in
 
 
 ![script](https://github.com/user-attachments/assets/01f889e4-ffc0-442d-8e94-cf6b77ff424f)
+
+
+
 
 
 
