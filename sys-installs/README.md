@@ -109,56 +109,8 @@ Co-pilot answered yes and continued to elaborate by saying the -y flag with the 
 - "what would a script from AWS Command Line Interface (CLI) look like?"
 When asked this because AWS Command Line Interface (CLI) is the script I wanted to create. 
   
-- "give me another one"
-When asked this it gave me two different versions or ways of how to do the script. It gave me one for Anisble
 
------------
-#Script for Anisble
-
- Check if running as root
-if [ "$EUID" -ne 0 ]; then
-  echo "This script requires sudo or root privileges. Please run as root."
-  exit 1
-fi
-
- Check if apt is available
-if ! command -v apt &> /dev/null; then
-  echo "This script requires the apt package manager. Please ensure apt is installed."
-  exit 1
-fi
-
- Provide information on what will be installed
-echo "This script will install Ansible and its dependencies."
-read -p "Do you want to proceed? (y/n): " choice
-if [[ "$choice" != "y" ]]; then
-  echo "Installation aborted."
-  exit 1
-fi
-
- Check if Ansible is already installed
-if command -v ansible &> /dev/null; then
-  echo "Ansible is already installed. Exiting to prevent name conflict."
-  exit 1
-fi
-
- Silently install Ansible
-echo "Installing Ansible..."
-sudo apt update
-sudo apt install -y ansible
-
- Prompt the user that install is complete
-echo "Ansible installation complete. You can run 'ansible --version' to check the installation."
-
-# End of script
-
-
-
-
-
-
-
-
-
+--------------------------------------
 
 
 # Citations
